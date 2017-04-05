@@ -15,12 +15,16 @@ function setup() {
   for (var i = 0; i < 40; i++) {
     tree.addValue(floor(random(0, 100)));
   }
+  console.log("test"); 
 
 
 }
 
 function draw(){
   background(backCol);
+  // console.log(tree.search(42)); 
+  //   console.log("test"); 
+
 
   push();
   translate(0, height/2);
